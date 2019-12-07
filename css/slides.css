@@ -1,0 +1,35 @@
+body {
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  line-height: 1.667;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 4vh;
+}
+
+.slide {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.slide > div {
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%);
+}
+
+.slide img,
+.slide video {
+  margin: auto;
+  display: block;
+  min-height: 50vh;
+  width: auto;
+}
